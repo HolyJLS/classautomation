@@ -1,5 +1,5 @@
 <h1 style="color:black"> To install:</h1><br>
-git clone https://github.com/HolyJLS/classautomation.git
+git clone https://github.com/HolyJLS/classautomation.git <br>
 pip install -r requirements.txt
 
 <h1>Download:</h1>
