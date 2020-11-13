@@ -5,9 +5,9 @@ from selenium import webdriver
 
 def automation():
     # for drivers
-    PATH = "C:\Program Files (x86)\chromedriver.exe"
+    PATH = "C:\Program Files (x86)\chromedriver.exe" # change this directory to where you installed the drivers
     driver = webdriver.Chrome(PATH)
-    driver.get("http://lbschools.instructure.com/")
+    driver.get("http://lbschools.instructure.com/") # this automatically goes to the LBUSD canvas website
     time.sleep(1)
     # user
     elem_get = driver.find_element_by_xpath('//*[@id="identification"]')  # do not change this xpath
